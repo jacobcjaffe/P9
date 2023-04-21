@@ -1,0 +1,4 @@
+take the two in as strings so we can parse by char
+convert each char into an int, put into an int array
+
+

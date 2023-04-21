@@ -1,0 +1,11 @@
+12 (base 3) = 5 (base 6)
+10 (base 10) = A (base 11)
+12 (base 17) = 34 (base 5)
+123 is not equal to 456 in any base 2..36
+1 is not equal to 2 in any base 2..36
+10 (base 2) = 2 (base 3)
+ABC is not equal to DEF in any base 2..36
+AAA is not equal to BBB in any base 2..36
+AAA (base 16) = 2730 (base 10)
+ABCDEF (base 16) = 222330313233 (base 4)
+ABCDEF (base 16) = 101010111100110111101111 (base 2)
