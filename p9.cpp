@@ -54,17 +54,21 @@ int main(int argc, char * argv[]) {
 	return 0;
 }
 
+// input: string
+// output: int
+// find the minimum base from the alphabet {0, 1, 2, 3... 9, A, B, ... F}
 int findMin(std::string str) {
 	int min = 0;
 	int dummy;	
 	for(int i = 0; i < str.length(); i++) {
-		if(str[i] <= 90 && str[i] >= 65) {
+		// str[i] element of {A, B, C, ... F}
+		if(str[i] >= 65) {
 			dummy = str[i] - 55;
 		}
+		// str[i] element of {0, 1, 2, 3, ... 9}
 		else {
 			dummy = str[i] - 48;
 		}
-		// keep track of minimum base, which is 1 more than the max digit
 		if(dummy+1 > min) {
 			min = dummy+1;
 		}
